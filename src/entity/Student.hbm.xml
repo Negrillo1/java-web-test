@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="entity.Student" table="student">
+		<id name="Sno" type="java.lang.String" length="8">
+			<generator class="assigned"/>		
+		</id>
+		<property name="Sname" type="java.lang.String"></property>
+		<property name="Ssex" type="java.lang.String"></property>
+		<property name="Sdep" type="java.lang.String"></property>
+		<property name="Snav" type="java.lang.String"></property>
+		<property name="Semail" type="java.lang.String"></property>
+		<property name="Sphone" type="java.lang.String"></property>
+	</class>
+</hibernate-mapping>

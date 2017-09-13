@@ -1,0 +1,7 @@
+/action/
+/db/
+/entity/
+/hibernate.cfg.xml
+/log4j.properties
+/service/
+/struts.xml
